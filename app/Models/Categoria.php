@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Categoria extends Model{
 
     use HasFactory;
+    public $timestamps = false;
 
     public function articulos(){
         return $this->hasMany(Articulo::class);

@@ -28,7 +28,7 @@ class ArticulosComponent extends Component{
     public $imagen;
 
     public $categorias;
-    public $lwMoArticulo;
+    public $moArticulo;
     public $parrafos;
 
     public $busqueda;
@@ -69,7 +69,7 @@ class ArticulosComponent extends Component{
 
         // upload imagen
         $path = $this->imagen->store('public/articulos/imagenes');
-        Image::make('../storage/app/'.$path)->resize(1080, 720)->save();
+        Image::make('../storage/app/'.$path)->fit(1080, 720)->save();
         $articulo->imagen = $path;            
 
         $articulo->save();
@@ -78,13 +78,51 @@ class ArticulosComponent extends Component{
         
     }
 
+    public function edit($articulo_id){
+        $this->moArticulo = Articulo::find($articulo_id);
+        $this->parrafos = Str::of($this->moArticulo->cuerpo)->split('/[\n]+/');
+
+        $this->categoria = $this->moArticulo->categoria_id;
+        $this->titulo = $this->moArticulo->titulo;
+        $this->subtitulo = $this->moArticulo->subtitulo;
+        $this->cuerpo = $this->moArticulo->cuerpo;
+    }
+
+    public function update(){
+
+        $this->validate([
+            'categoria' => 'required',
+            'titulo' => 'required|string|max:255',
+            'subtitulo' => 'required|string|max:255',
+            'cuerpo' => 'required|string',
+            'imagen' => 'nullable|image|max:5120',
+        ]);
+
+        $this->moArticulo->categoria_id = $this->categoria;
+        $this->moArticulo->titulo = $this->titulo;
+        $this->moArticulo->subtitulo = $this->subtitulo;
+        $this->moArticulo->cuerpo = $this->cuerpo;
+
+        // upload imagen
+        if($this->imagen){
+            $path = $this->imagen->store('public/articulos/imagenes');
+            Image::make('../storage/app/'.$path)->fit(1080, 720)->save();
+            $this->moArticulo->imagen = $path;             
+        }
+           
+
+        $this->moArticulo->save();
+
+        
+    }
+
     public function show($articulo_id){
-        $this->lwMoArticulo = Articulo::find($articulo_id);
-        $this->parrafos = Str::of($this->lwMoArticulo->cuerpo)->split('/[\n]+/');
+        $this->moArticulo = Articulo::find($articulo_id);
+        $this->parrafos = Str::of($this->moArticulo->cuerpo)->split('/[\n]+/');
     }
 
     public function close(){
-        $this->reset(['categoria', 'titulo', 'subtitulo', 'cuerpo', 'imagen']);
+        $this->reset(['categoria', 'titulo', 'subtitulo', 'cuerpo', 'imagen', 'moArticulo']);
         $this->resetValidation();
     }
 

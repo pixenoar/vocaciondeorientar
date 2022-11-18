@@ -59,6 +59,8 @@
 
         @include('dash.articulos.create')
 
+        @include('dash.articulos.edit')
+
         @include('dash.articulos.show')
 
     </div>

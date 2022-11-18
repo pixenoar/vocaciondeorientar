@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Livewire\Dash\ArticulosComponent;
+use App\Http\Livewire\Dash\CategoriasComponent;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,30 +19,25 @@ use App\Http\Livewire\Dash\ArticulosComponent;
 
 
 
-Route::get('new', function () {
+Route::get('/', function () {
     return view('site.index');
 })->name('site.home');
 
 
-Route::get('dash', ArticulosComponent::class)->middleware(['auth'])->name('dash');
+Route::prefix('dashboard')->group(function(){
+
+    Route::get('/', function () {
+        return redirect()->route('dash.articulos');
+    })->name('dashboard');
 
 
+    Route::get('articulos', ArticulosComponent::class)->middleware(['auth'])->name('dash.articulos');
+    Route::get('categorias', CategoriasComponent::class)->middleware(['auth'])->name('dash.categorias');
 
 
-
-
-Route::get('/', function () {
-    return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+
 
 require __DIR__.'/auth.php';

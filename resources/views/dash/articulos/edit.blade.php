@@ -1,10 +1,10 @@
-<div wire:ignore.self class="modal fade" id="modalCreate" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalCreateLabel" aria-hidden="true">
+<div wire:ignore.self class="modal fade" id="modalEdit" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalEditLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalCreateLabel">Nuevo Artículo</h5>
+                <h5 class="modal-title" id="modalEditLabel">Modificar Artículo</h5>
             </div>
-            <form wire:submit.prevent="store">
+            <form wire:submit.prevent="update">
                 <div class="modal-body p-4">
                     <div class="row g-3">
                         <div class="col-lg-12">
@@ -55,8 +55,13 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>    
-                        <div class="col-lg-12">
+                        </div>
+                        <div class="col-lg-4">
+                            @if($moArticulo)
+                                <img src="{{ Storage::url($moArticulo->imagen) }}" class="img-fluid rounded shadow-sm" alt="...">
+                            @endif
+                        </div>
+                        <div class="col-lg-8">
                             <div class="border rounded p-3">
                                 <label for="imagen" class="form-label">Adjuntar Imagen</label>
                                 <input id="imagen" type="file" wire:model.defer="imagen" class="form-control @error('imagen') is-invalid @enderror">
@@ -72,11 +77,11 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" wire:click="close" class="btn btn-dark mx-0" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary" wire:target="store" wire:loading.class="disabled">
-                        <div wire:loading.remove wire:target="store">
+                    <button type="submit" class="btn btn-primary" wire:target="update" wire:loading.class="disabled">
+                        <div wire:loading.remove wire:target="update">
                             Guardar
                         </div>                        
-                        <div wire:loading wire:target="store">
+                        <div wire:loading wire:target="update">
                             Guardando...
                         </div>
                     </button>
