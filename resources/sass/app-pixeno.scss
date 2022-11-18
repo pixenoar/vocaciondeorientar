@@ -1,0 +1,18 @@
+.bg-home{
+	background-image: url(../img/bg-home.jpg);
+	background-position: center; 
+	background-size: cover;
+}
+
+.bg-grad{
+	background-image: linear-gradient(to left, #fbbf24, #6d28d9);
+}
+
+.text-light{
+	font-weight: 200;
+}
+
+.btn-pill{
+	padding: .5rem 1.25rem;
+	border-radius: 50rem;
+}
