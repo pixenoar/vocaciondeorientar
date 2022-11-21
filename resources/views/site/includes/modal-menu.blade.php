@@ -10,16 +10,16 @@
                         <a href="{{ route('site.home') }}" class="nav-link link-light fw-light fs-2">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#nosotros" class="nav-link link-light fw-light fs-2">¿Quién soy?</a>
+                        <a href="#quien-soy" class="nav-link link-light fw-light fs-2">¿Quién soy?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#pqe" class="nav-link link-light fw-light fs-2">El Test</a>
+                        <a href="#el-test" class="nav-link link-light fw-light fs-2">El Test</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#trabajos" class="nav-link link-light fw-light fs-2">¿Cómo puedo ayudarte?</a>
+                        <a href="#cpa" class="nav-link link-light fw-light fs-2">¿Cómo puedo ayudarte?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#trabajos" class="nav-link link-light fw-light fs-2">Artículos</a>
+                        <a href="#articulos" class="nav-link link-light fw-light fs-2">Artículos</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contacto" class="nav-link link-light fw-light fs-2">Contacto</a>

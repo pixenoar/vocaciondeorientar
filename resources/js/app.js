@@ -9,6 +9,12 @@
     Alpine.start();
 
 
-// Pixeno
+// Bootstrap
 
     import 'bootstrap';
+
+// Pixeno
+
+    const modal = new bootstrap.Modal('#menuModal');
+    document.getElementById("menuModal").addEventListener("click", ocultar);
+    function ocultar(){ modal.hide(); }

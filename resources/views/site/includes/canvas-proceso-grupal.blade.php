@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-end p-3 p-lg-4" tabindex="-1" id="offcanvasProcesoGrupal" aria-labelledby="offcanvasProcesoGrupalLabel">
+<div class="offcanvas offcanvas-end p-2 p-lg-4" tabindex="-1" id="offcanvasProcesoGrupal" aria-labelledby="offcanvasProcesoGrupalLabel">
     <div class="offcanvas-header">
         <h4 class="offcanvas-title fw-light" id="offcanvasProcesoGrupalLabel">Proceso Grupal</h4>
         <a href="#" class="link-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg fs-5"></i></a>

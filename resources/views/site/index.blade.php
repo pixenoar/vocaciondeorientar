@@ -118,7 +118,7 @@
                 <div class="row justify-content-around align-items-center g-5 mt-3 mt-lg-5">
                     <div class="col-lg-3">
                         <div class="position-relative">
-                            <img src="{{ asset('img/proceso-grupal.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
+                            <img src="{{ asset('img/consulta-individual.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
                             <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/persona.svg') }}" alt="Persona">
                             </div>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="position-relative">
-                            <img src="{{ asset('img/proceso-grupal.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
+                            <img src="{{ asset('img/talleres.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
                             <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/comentario.svg') }}" alt="Personas">
                             </div>
