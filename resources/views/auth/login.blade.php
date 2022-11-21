@@ -1,5 +1,9 @@
 @extends('layouts.site')
 
+@section('title')
+    Login - 
+@endsection
+
 @section('contenido')
 
     <div class="container-fluid bg-dark">

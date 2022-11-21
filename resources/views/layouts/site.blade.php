@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vocación de Orientar</title>
+        <title>@yield('title')Vocación de Orientar</title>
         <meta name="description" content="Desarrollamos páginas y aplicaciones web a medida, logrando crear productos digitales únicos e innovadores.">
 
-        <meta property="og:title" content="Pixeno - Diseño web a medida">
-        <meta property="og:image" content="{{ asset('img/bebederos-gowland.jpg') }}">
-        <meta name="og:description" content="Desarrollamos páginas y aplicaciones web a medida, logrando crear productos digitales únicos e innovadores.">
-        <meta property="og:site_name" content="Pixeno - Diseño web a medida">
-        <meta property="og:url" content="https://pixeno.ar">
+        <meta property="og:title" content="Vocación de Orientar">
+        <meta property="og:image" content="{{ asset('img/vocacion-de-orientar.jpg') }}">
+        <meta name="og:description" content="...">
+        <meta property="og:site_name" content="Vocación de Orientar">
+        <meta property="og:url" content="https://vocaciondeorientar.ar">
         <meta property="og:type" content="website">
 
         <meta name="format-detection" content="telephone=no">
