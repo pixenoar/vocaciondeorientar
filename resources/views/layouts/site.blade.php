@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="Vocación de Orientar">
         <meta property="og:image" content="{{ asset('img/vocacion-de-orientar.jpg') }}">
-        <meta name="og:description" content="...">
+        <meta name="og:description" content="Acompañando a jóvenes y adultos a elegir una carrera o diagramar un proyecto de vida.">
         <meta property="og:site_name" content="Vocación de Orientar">
         <meta property="og:url" content="https://vocaciondeorientar.ar">
         <meta property="og:type" content="website">

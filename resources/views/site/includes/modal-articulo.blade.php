@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
         <div class="modal-content border-0">
 
-            <div class="modal-header border-0 justify-content-end px-4 py-3">
+            <div class="modal-header border-0 justify-content-end px-4 py-3 shadow-sm">
                 <a href="#" class="link-dark" data-bs-dismiss="modal"><i class="bi bi-x-lg fs-4"></i></a>
             </div>  
             

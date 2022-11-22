@@ -42,7 +42,7 @@
                     <div class="card-body py-4">
                         <div class="d-flex justify-content-between align-items-center small mb-3">
                             <div>
-                                <a href="javascript:void(0)" wire:click="$set('categoria_id', {{ $articulo->categoria->id }})" class="text-decoration-none btn btn-secondary btn-sm">{{ $articulo->categoria->nombre }}</a>
+                                <a href="javascript:void(0)" wire:click="setCategoria({{ $articulo->categoria->id }})" class="text-decoration-none btn btn-secondary btn-sm">{{ $articulo->categoria->nombre }}</a>
                             </div>
                             <div>
                                 <span>{{ $articulo->created_at->diffForHumans() }}</span>

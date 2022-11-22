@@ -33,10 +33,10 @@
                 <div class="d-none d-lg-block">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link link-light pe-2"><i class="bi bi-instagram fs-5 text-light"></i></a>
+                            <a href="https://www.instagram.com/vocaciondeorientar" target="_blank" class="nav-link link-light pe-2"><i class="bi bi-instagram fs-5 text-light"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link link-light ps-2"><i class="bi bi-linkedin fs-5 text-light"></i></a>
+                            <a href="https://www.linkedin.com/in/marcostabossi" target="_blank" class="nav-link link-light ps-2"><i class="bi bi-linkedin fs-5 text-light"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -77,7 +77,7 @@
                         <h3 class="h1 fw-light mb-4 mt-4 mt-lg-0">Marcos Tabossi</h3>
                         <p class="fw-light">Psicólogo, docente y escritor. Me especializo desde hace doce años en el área de Orientación Vocacional en el ámbito público -Universidad Nacional de Luján- y privado acompañando a jóvenes y adultos a elegir una carrera o diagramar un proyecto de vida.</p>
                         <p class="fw-light">He llevado a cabo distintos dispositivos para abordar esta problemática juvenil: procesos individuales, grupales y dictando talleres presenciales y virtuales con los últimos años del colegio secundario.</p>
-                        <a href="https://www.linkedin.com/in/santiago-brutti" target="_blank" class="btn btn-primary btn-sm btn-pill fw-light mt-4" role="button"><i class="bi bi-linkedin me-2"></i> MÁS SOBRE MI</a>
+                        <a href="https://www.linkedin.com/in/marcostabossi" target="_blank" class="btn btn-primary btn-sm btn-pill fw-light mt-4" role="button">MÁS SOBRE MI</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                         <div class="text-center text-light">
                             <h4 class="h1 fw-light">¿Todavía tenes dudas?</h4>
                             <p class="fw-light my-4">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
-                            <a href="https://wa.me/+542324502670" target="_blank" class="btn btn-light btn-sm btn-pill fw-light mt-4" role="button"><i class="bi bi-whatsapp me-1"></i> HABLEMOS</a>
+                            <a href="https://wa.me/+542324477461" target="_blank" class="btn btn-light btn-sm btn-pill fw-light mt-4" role="button"><i class="bi bi-whatsapp me-1"></i> HABLEMOS</a>
                         </div>
                     </div>
                 </div>
@@ -204,13 +204,13 @@
                     <div class="col-lg-4">
                         <ul class="nav justify-content-center justify-content-lg-end">
                             <li class="nav-item">
-                                <a href="https://wa.me/+542324502670" target="_blank" class="nav-link link-light"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/+542324477461" target="_blank" class="nav-link link-light"><i class="bi bi-whatsapp"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://www.instagram.com/pixeno.ar" target="_blank" class="nav-link link-light"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.instagram.com/vocaciondeorientar" target="_blank" class="nav-link link-light"><i class="bi bi-instagram"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://www.linkedin.com/in/santiago-brutti" target="_blank" class="nav-link link-light"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/marcostabossi" target="_blank" class="nav-link link-light"><i class="bi bi-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

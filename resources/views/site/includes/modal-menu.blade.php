@@ -29,13 +29,13 @@
             <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a href="https://wa.me/+542324502670" target="_blank" class="nav-link link-light"><i class="bi bi-whatsapp fs-4"></i></a>
+                        <a href="https://wa.me/+542324477461" target="_blank" class="nav-link link-light"><i class="bi bi-whatsapp fs-4"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/pixeno.ar" target="_blank" class="nav-link link-light"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="https://www.instagram.com/vocaciondeorientar" target="_blank" class="nav-link link-light"><i class="bi bi-instagram fs-4"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/santiago-brutti" target="_blank" class="nav-link link-light"><i class="bi bi-linkedin fs-4"></i></a>
+                        <a href="https://www.linkedin.com/in/marcostabossi" target="_blank" class="nav-link link-light"><i class="bi bi-linkedin fs-4"></i></a>
                     </li>
                 </ul>
             </div>

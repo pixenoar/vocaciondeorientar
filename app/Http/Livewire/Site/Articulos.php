@@ -13,7 +13,7 @@ class Articulos extends Component{
 
     public $moCategorias;
     public $moArticulo;
-    public $cantidad = 3;
+    public $cantidad = 6;
     public $categoria_id = 0;
     public $parrafos;
 

@@ -37,7 +37,9 @@ Route::prefix('dashboard')->group(function(){
 
 });
 
-
-
-
 require __DIR__.'/auth.php';
+
+
+Route::get('slink', function () {
+    Artisan::call('storage:link');
+});
