@@ -4,7 +4,7 @@
     "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
   },
   "resources/img/bg-home.jpg": {
-    "file": "assets/bg-home.a993553d.jpg",
+    "file": "assets/bg-home.8eb7c3bf.jpg",
     "src": "resources/img/bg-home.jpg"
   },
   "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
@@ -17,7 +17,7 @@
     "isEntry": true
   },
   "resources/sass/app.scss": {
-    "file": "assets/app.6e16d75c.css",
+    "file": "assets/app.7e2bb062.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   }
