@@ -55,6 +55,9 @@
                                     </span>
                                 @enderror
                             </div>
+                            <div class="alert alert-info small mt-1 mb-0 p-2" role="alert">
+                                Ejemplo para insertar link: <code>&lt;a href="https://pixeno.ar" target="_blank"&gt;diseño web&lt;/a&gt;</code>
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             @if($moArticulo)

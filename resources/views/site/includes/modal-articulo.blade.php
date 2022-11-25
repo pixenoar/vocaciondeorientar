@@ -18,7 +18,7 @@
                                 <p class="fw-light mb-0">{{ $moArticulo->subtitulo }}</p>
                                 <img src="{{ Storage::url($moArticulo->imagen) }}" class="img-fluid my-4" alt="...">
                                 @foreach($parrafos as $parrafo)
-                                    <p class="fw-light">{{ $parrafo }}</p>
+                                    <p class="fw-light">{!! $parrafo !!}</p>
                                 @endforeach
                             </div>
                         </div>

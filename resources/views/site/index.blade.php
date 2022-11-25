@@ -69,7 +69,7 @@
                                 <img src="{{ asset('img/svg/info.svg') }}" alt="Información">
                             </div>
                             <div class="position-absolute top-100 start-50 translate-middle d-lg-none">
-                                <img src="{{ asset('img/svg/info.svg') }}" class="w-75 mx-auto d-block" alt="Información">
+                                <img src="{{ asset('img/svg/info.svg') }}" class="w-75 mx-auto d-block" alt="Signo">
                             </div>                              
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                     </div>                    
                     <div class="col-lg-5 order-1 order-lg-2">
                         <div class="position-relative">
-                            <img src="{{ asset('img/test-orientacion.jpg') }}" class="img-fluid rounded-5 shadow" alt="Tes Orientación Vocacional">
+                            <img src="{{ asset('img/test-orientacion.jpg') }}" class="img-fluid rounded-5 shadow" alt="Test Orientación Vocacional">
                             <div class="position-absolute top-50 start-0 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/signo-interrogacion.svg') }}" alt="Signo">
                             </div>
@@ -118,7 +118,7 @@
                 <div class="row justify-content-around align-items-center g-5 mt-3 mt-lg-5">
                     <div class="col-lg-3">
                         <div class="position-relative">
-                            <img src="{{ asset('img/consulta-individual.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
+                            <img src="{{ asset('img/consulta-individual.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Consulta Individual">
                             <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/persona.svg') }}" alt="Persona">
                             </div>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="position-relative">
-                            <img src="{{ asset('img/proceso-grupal.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
+                            <img src="{{ asset('img/proceso-grupal.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Proceso Grupal">
                             <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/personas.svg') }}" alt="Personas">
                             </div>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="position-relative">
-                            <img src="{{ asset('img/talleres.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Estudiante">
+                            <img src="{{ asset('img/talleres.jpg') }}" class="img-fluid rounded-5 shadow-sm" alt="Talleres">
                             <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                                 <img src="{{ asset('img/svg/comentario.svg') }}" alt="Personas">
                             </div>
@@ -226,6 +226,8 @@
     @include('site.includes.canvas-proceso-grupal')
 
     @include('site.includes.canvas-talleres')
+
+    @include('site.includes.boton-wp')
 
 
 @endsection

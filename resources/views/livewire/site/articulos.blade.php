@@ -37,7 +37,7 @@
             <div class="col-lg-4">
                 <div class="card shadow-sm border-0 h-100">
                     <a href="#articuloModal" wire:click="verArticulo({{ $articulo->id }})" data-bs-toggle="modal">
-                        <img src="{{ Storage::url($articulo->imagen) }}" class="card-img-top" alt="...">
+                        <img src="{{ Storage::url($articulo->imagen) }}" class="card-img-top" alt="{{ $articulo->titulo }}">
                     </a>
                     <div class="card-body py-4">
                         <div class="d-flex justify-content-between align-items-center small mb-3">

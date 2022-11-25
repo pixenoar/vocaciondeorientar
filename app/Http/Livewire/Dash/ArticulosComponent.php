@@ -80,7 +80,7 @@ class ArticulosComponent extends Component{
 
     public function edit($articulo_id){
         $this->moArticulo = Articulo::find($articulo_id);
-        $this->parrafos = Str::of($this->moArticulo->cuerpo)->split('/[\n]+/');
+        //$this->parrafos = Str::of($this->moArticulo->cuerpo)->split('/[\n]+/');
 
         $this->categoria = $this->moArticulo->categoria_id;
         $this->titulo = $this->moArticulo->titulo;
