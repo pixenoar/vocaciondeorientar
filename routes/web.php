@@ -30,10 +30,8 @@ Route::prefix('dashboard')->group(function(){
         return redirect()->route('dash.articulos');
     })->name('dashboard');
 
-
     Route::get('articulos', ArticulosComponent::class)->middleware(['auth'])->name('dash.articulos');
     Route::get('categorias', CategoriasComponent::class)->middleware(['auth'])->name('dash.categorias');
-
 
 });
 
