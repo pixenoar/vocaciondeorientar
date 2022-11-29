@@ -185,7 +185,7 @@
                     <div class="col-lg-8">
                         <div class="text-center text-light">
                             <h4 class="h1 fw-light">¿Todavía tenes dudas?</h4>
-                            <p class="fw-light my-4">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                            <p class="fw-light fs-5 my-4">Estoy en línea para responder cualquier tipo de consulta</p>
                             <a href="https://wa.me/+542324477461" target="_blank" class="btn btn-light btn-sm btn-pill fw-light mt-4" role="button"><i class="bi bi-whatsapp me-1"></i> HABLEMOS</a>
                         </div>
                     </div>
