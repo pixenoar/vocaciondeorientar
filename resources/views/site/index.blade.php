@@ -17,7 +17,7 @@
                             <a href="#quien-soy" class="nav-link link-light">¿Quién soy?</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#el-test" class="nav-link link-light">El Tets</a>
+                            <a href="#el-test" class="nav-link link-light">El Test</a>
                         </li>
                         <li class="nav-item">
                             <a href="#cpa" class="nav-link link-light">¿Cómo puedo ayudarte?</a>
@@ -47,7 +47,7 @@
             <div class="position-absolute position-absolute top-50 start-50 translate-middle w-75">
                 <div class="text-center">
                     <h1 class="display-3 text-light">PENSEMOS EN TU FUTURO</h1>
-                    <h2 class="h5 fw-light text-light lh-base">"Lo más importante en la vida es que lo más importante sea lo más importante"<br><span class="small">- Stephen Covey -</span></h2>
+                    <h2 class="h5 fw-light text-light lh-base">te ayudo a construir tu camino</h2>
                     <a href="#quien-soy" class="btn btn-primary btn-sm btn-pill fw-light mt-5" role="button">COMENCEMOS</a>
                 </div>
             </div>
